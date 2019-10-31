@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom , #003f5c , #745c97);
+    height: 100vh;
+    color: #fff;
+}
+#wrapper {
+    text-align: center;
+}
+#title {
+    padding-top: 10vh;
+}
+form {
+    border-radius: 5px;
+    background: rgb(0,0,0,0.6);
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10vh 0;
+}
+form div {
+    padding: 10px;
+}
+#submit {
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+    height: 5vh;
+    background: seagreen;
+    border: none;
+}
